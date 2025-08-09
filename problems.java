@@ -1,3 +1,6 @@
+
+import java.util.HashMap;
+
 // import java.util.HashMap;
 
 //  public class problems{
@@ -18,55 +21,32 @@
 //     }
 // }
 
-// public class problems{
-//     public static void main(String[] args) {
-//         highest repeating element in an array
-//         int arr[]={1,2,3,4,5,6,7,8,9,1,2,3,4,5,6,7,1,2,3,4,5,6,1,2,3,4,5,1,2,3,4,1,2,3,1,2,1};
+public class problems{
+    public static void main(String[] args) {
+        int[] arr = {1,1,1,1,2,2,2,2,4,4,5,6,6,7};
+        HashMap<Integer, Integer> hm = new HashMap<>();
 
-//         int maximum=0;
-//         int arr_repated_most=0;
+        for (int num : arr) {
+            hm.put(num, hm.getOrDefault(num, 0) + 1);
+        }
 
-//         int count;
+        System.out.println(hm);
 
-//         for(int i=0;i<arr.length;i++){
-//             count=0;
-//         for(int j=0;j<arr.length;j++){
-//             if(arr[i]==arr[j]){
-//                 count++;
-//             }
-//         }
-//         if(count>maximum){
-//             maximum=count;
-//             arr_repated_most=arr[i];
-//         }
-//         }
-//         System.out.println(arr_repated_most+" with the count of " +maximum);
-
-        
-//         }
-    
-
-//     }
+        int mostRepeated = arr[0];
+        int maxCount = 0;
+        for (int key : hm.keySet()) {
+            if (hm.get(key) > maxCount) {
+                maxCount = hm.get(key);
+                mostRepeated = key;
+            }
+        }
+        System.out.println("Most repeated number: " + mostRepeated + " (Count: " + maxCount + ")");
+}
+    }
 
 
-// import java.util.*;
-// public class problems{
-//     public static int tribo(int n){
-//         if(n==0||n==1||n==2){
-//             return n;
-//         }
-//         return tribo(n-1)+tribo(n-2)+tribo(n-3);
-//     }
-//         public static void main(String[] args) {
-//         Scanner sc=new Scanner(System.in);  
-//         int freq=sc.nextInt();
 
-        
-//         for(int i=0;i<freq;i++){
-//             System.out.print(tribo(i) + ",");
-//         }
-//     }
-// }
+
 
 //Find the longest word in the string
 // public class problems{
@@ -296,7 +276,7 @@
 // import java.util.*;
 // public class problems{
 //     public static void main(String[] args) {
-//         int[]arr={0,0,1,0,1};    //
+//         int[]arr={0,0,1,0,1};   
 
 //         int left=0;
 //         int right=arr.length-1;
