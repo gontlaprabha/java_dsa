@@ -281,7 +281,7 @@
 //         s1.age=21;
 //         s1.schoolname="sv";
 //         s1.getdetails();
-//         s1.marks(23, 33,33);
+//         s1.marks(23,33,33);
 //         student s2=new student();
 //         s2.name="vignesh";
 //         s2.age=23;
