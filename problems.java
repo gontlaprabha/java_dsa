@@ -1,6 +1,3 @@
-
-import java.util.HashMap;
-
 // import java.util.HashMap;
 
 //  public class problems{
@@ -21,31 +18,26 @@ import java.util.HashMap;
 //     }
 // }
 
-public class problems{
-    public static void main(String[] args) {
-        int[] arr = {1,1,1,1,2,2,2,2,4,4,5,6,6,7};
-        HashMap<Integer, Integer> hm = new HashMap<>();
+// public class problems{
+//     public static void main(String[] args) {
+//         int[] arr = {1,1,1,1,2,2,2,2,4,4,5,6,6,7};
+//         HashMap<Integer, Integer> hm = new HashMap<>();
+//         for (int num : arr) {
+//             hm.put(num, hm.getOrDefault(num, 0) + 1);
+//         }
+//         System.out.println(hm);
 
-        for (int num : arr) {
-            hm.put(num, hm.getOrDefault(num, 0) + 1);
-        }
-
-        System.out.println(hm);
-
-        int mostRepeated = arr[0];
-        int maxCount = 0;
-        for (int key : hm.keySet()) {
-            if (hm.get(key) > maxCount) {
-                maxCount = hm.get(key);
-                mostRepeated = key;
-            }
-        }
-        System.out.println("Most repeated number: " + mostRepeated + " (Count: " + maxCount + ")");
-}
-    }
-
-
-
+//         int mostRepeated = arr[0];
+//         int maxCount = 0;
+//         for (int key : hm.keySet()) {
+//             if (hm.get(key) > maxCount) {
+//                 maxCount = hm.get(key);
+//                 mostRepeated = key;
+//             }
+//         }
+//         System.out.println("Most repeated number: " + mostRepeated + " (Count: " + maxCount + ")");
+// }
+//     }
 
 
 //Find the longest word in the string
@@ -420,9 +412,9 @@ public class problems{
 //         }
 //     }
 
- 
 
-// class Main{
+
+    // class Main{
     //     public static boolean issorted(int[]arr){
     //         for(int i=0;i<=arr.length-2;i++){
     //             if(!(arr[i]<arr[i+1])){
@@ -559,6 +551,7 @@ public class problems{
 // 28. Check if a string is a pangram (contains all 26 letters)
 // 29. Check if a string starts and ends with the same character
 // 30. Count how many times a substring appears in a string
+
 
 
 
