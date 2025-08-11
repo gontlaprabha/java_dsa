@@ -244,11 +244,11 @@
 
 // Problem: You are given an array arr of size nn -1, containing distinct numbers from 1 to n. Find the missing number.
 
+
 // public class problems{
 //     public static void main(String[] args) {
 //         String name="prABhas";
 //         StringBuilder sb=new StringBuilder();
-        
 //         for(int i=0;i<name.length();i++){
 //             char ch=name.charAt(i);
 //             if(Character.isLowerCase(ch)){
@@ -258,13 +258,13 @@
 //             else{
 //                 Character.toLowerCase(ch);
 //                 sb.append(Character.toLowerCase(ch));
-
 //             }
 //         }
 //         System.out.println(sb);
 
 //     }
 // }
+
 // import java.util.*;
 // public class problems{
 //     public static void main(String[] args) {
@@ -289,8 +289,6 @@
 //            }
 //         }
 //         System.out.println(Arrays.toString(arr));
-
-
 //     }
 // }
 //     public static void main(String[] args) {
@@ -325,8 +323,6 @@
 
 
 //rotation of array
-
-
 // public class problems{
 //   public static void krotation(int[]arr,int k){
 //         int[]res=new int[arr.length];
@@ -412,8 +408,6 @@
 //         }
 //     }
 
-
-
     // class Main{
     //     public static boolean issorted(int[]arr){
     //         for(int i=0;i<=arr.length-2;i++){
@@ -450,8 +444,6 @@
 //          }
 
 //          System.out.println(map);
- 
-          
 
 //     }
 // }
@@ -551,6 +543,7 @@
 // 28. Check if a string is a pangram (contains all 26 letters)
 // 29. Check if a string starts and ends with the same character
 // 30. Count how many times a substring appears in a string
+
 
 
 
@@ -686,4 +679,7 @@
 //         System.out.println(spaces);
 //     }
 // }
+
+
+
 
