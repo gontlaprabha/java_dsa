@@ -74,23 +74,36 @@
 //
 //     }
 
-class ageexception extends Exception{
-    public ageexception(String age){
-        super(age);
-    }
-}
+// class ageexception extends Exception{
+//     public ageexception(String age){
+//         super(age);
+//     }
+// }
+// public class exceptions{
+//     public static void main(String[] args) {
+//         int age=-4;
+
+//         try {
+//             if(age<0){
+//                 throw new ageexception("age can't be negative");
+//             }
+            
+//         } catch (ageexception e) {
+//             System.out.println(e.getMessage());
+//         }
+        
+//     }
+// }
+
+
 public class exceptions{
     public static void main(String[] args) {
-        int age=-4;
+        int[]arr=new int[5];
 
         try {
-            if(age<0){
-                throw new ageexception("age can't be negative");
-            }
-            
-        } catch (ageexception e) {
-            System.out.println(e.getMessage());
+            System.out.println(arr[2]);
+        } catch (Exception e) {
+            System.out.println(e);
         }
-        
     }
 }

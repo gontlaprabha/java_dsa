@@ -550,8 +550,23 @@
 //     }
 
 
-class oop{
-    
+public class oop{
+    class A{
+
+        A() {
+            System.out.println("A Constructor");
+        }
+         
+        A(String A){
+            this();
+          System.out.println("A constructor with With string");
+        }
+
+       
+    }
+    class B{
+         
+    }
     public static void main(String[] args) {
         
     }
