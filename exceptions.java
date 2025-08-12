@@ -96,14 +96,32 @@
 // }
 
 
-public class exceptions{
-    public static void main(String[] args) {
-        int[]arr=new int[5];
+// public class exceptions{
+//     public static void main(String[] args) {
+//         int[]arr=new int[5];
+//         String str=null;
+        
 
-        try {
-            System.out.println(arr[2]);
-        } catch (Exception e) {
-            System.out.println(e);
-        }
-    }
-}
+//         try {
+//         System.out.println(str.length());
+
+//         } catch (Exception e) {
+//               System.out.println(e.getCause());
+//         }
+
+//     }
+// }
+
+
+// public class exceptions{
+//     class prabhasdisappointed extends Exception{
+
+//         public prabhasdisappointed(String msg) {
+//             super(msg);
+//         }
+          
+//     }
+//     public static void main(String[] args) {
+        
+//     }
+// }
