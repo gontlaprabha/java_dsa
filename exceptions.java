@@ -125,3 +125,28 @@
         
 //     }
 // }
+class A{
+    public void show(){
+        System.out.println("A");
+    }
+
+}
+class B extends A{
+    @Override
+    public void show(){
+        System.out.println("B");
+    }
+
+}
+class C extends B{
+    public void show(){
+        super.show();
+     System.out.println("C");
+    }
+}
+public class exceptions{
+    public static void main(String[] args) {
+        C obj=new C();
+        obj.show();
+    }
+}
