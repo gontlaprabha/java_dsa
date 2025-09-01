@@ -22,11 +22,14 @@
 // }
 public class prepinsta{
     public static int fibo(int a){
-        if(a)
-
+        if(a==0||a==1){
+           return a;
+        }
+        return fibo(a-1)+fibo(a-2);
     }
   
     public static void main(String[] args) {
+        
         
 
         
