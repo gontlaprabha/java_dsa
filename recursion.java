@@ -225,7 +225,7 @@
 //     public static void main(String[] args) {
 //       int seq=10;
 //       for(int i=0;i<=seq;i++){
-//         System.out.println(fibo(i)+"");
+//         System.out.print(fibo(i)+" ");
 //       }
 //   }
 // }
