@@ -679,3 +679,166 @@
 //         System.out.println(spaces);
 //     }
 // }
+
+// Write a Java program to print the sum of all numbers from 1 to 50.
+// public class problems{
+//     public static void main(String[]args){
+//              int sum=0;
+
+//              for(int i=1;i<=50;i++){
+//                 sum+=i;
+//              }
+//              System.out.println(sum);
+//     }
+// }
+
+// Write a Java program to count how many even numbers are present in an array.
+
+// public class problems{
+//     public static void main(String[]args){
+//         int arr[] = {10, 21, 32, 43, 54, 65};
+//         int count=0;
+
+//         for(int i=0;i<arr.length;i++){
+//             if(arr[i]%2==0){
+//                 count++;
+//             }
+//         }
+
+//         System.out.println(count);
+
+
+             
+//     }
+// }
+
+
+// Write a Java program to reverse a given string without using StringBuilder or StringBuffer.
+
+// public class problems{
+//     public static void main(String[]args){
+//         String str = "hello";
+//         String revString="";
+//         for(int i=str.length()-1;i>=0;i--){
+//             revString=revString+str.charAt(i);
+//         }
+//         System.out.println(revString);
+
+                  
+//     }
+// }
+
+
+//Write a Java program to find the largest number in an array.
+
+
+// public class problems{
+//     public static void main(String[] args) {
+//         int arr[] = {5, 12, 9, 22, 8};
+//         int largest=arr[0];
+
+
+//         for(int i=0;i<arr.length;i++){
+//             if(arr[i]>largest){
+//                 largest=arr[i];
+//             }
+//         }
+//         System.out.println(largest);
+
+//     }
+// }
+
+// Write a Java program to check whether a number is a palindrome or not.
+
+
+// import java.util.Scanner;
+// public class problems{
+//     public static boolean ispalin(int num){
+//         int original = num;
+//         int revnum = 0;
+//         while(num != 0){
+//             int last = num % 10;
+//             revnum = revnum * 10 + last;
+//             num = num / 10;
+//         }
+//         return original == revnum;
+//     }
+//     public static void main(String[] args) {
+//         Scanner sc=new Scanner(System.in);
+//         int num=sc.nextInt();
+
+//         if(ispalin(num)){
+//             System.out.println("Palindrome");
+//         }
+//         else{
+//             System.out.println("Not Palindrome");
+//         }
+
+//     }
+// }
+
+
+// Write a Java program to find the second largest number in an array.
+
+// public class problems{
+//     public static void main(String[] args) {
+//         int arr[] = {14, 28, 7, 91, 46};
+//         int largest=Integer.MIN_VALUE;
+//         int secondlargest=Integer.MIN_VALUE;
+
+//         for(int i=0;i<arr.length;i++){
+//             if(arr[i]>largest){
+//                 secondlargest=largest;
+//                 largest=arr[i];
+//             }
+//             else if(arr[i]>secondlargest && arr[i]<largest){
+//                 secondlargest=arr[i];
+//             }
+//         }
+
+//         System.out.println(largest);
+//         System.out.println(secondlargest);
+
+
+         
+//     }
+// }
+
+
+// Write a Java program to print the Fibonacci series up to 10 terms.
+
+
+// public class problems{
+//     public static void main(String[] args) {
+//         int a=0;
+//         int b=1;
+//         int num = 0;
+//         System.out.print(a+" "+b);
+//         while(num <= 7){
+//           int c=a+b;
+//           a=b;
+//           b=c;
+//           System.out.print(" "+c+" ");
+//           num++;
+          
+//         }
+//     }
+// }
+
+// Write a Java program to find the number of vowels in a string.
+
+// public class problems{
+//     public static void main(String[] args) {
+//         String input="education";
+//         int count=0;
+       
+//         for(int i=0;i<input.length();i++){
+//             char ch=input.charAt(i);
+//             if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+//                 count++;
+//             }
+//         }
+//         System.out.println(count);
+
+//     }
+// }
